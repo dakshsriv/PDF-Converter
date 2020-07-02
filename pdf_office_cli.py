@@ -27,6 +27,26 @@ def Create_PDF(file_to_convert, output_directory):
         '--headless']
     )
 
+def Export_to_xlsx(file_to_convert, output_directory):
+    subprocess.Popen(["/usr/bin/soffice", 
+        "--convert-to", 
+        "xlsx", 
+        "--outdir", 
+        output_directory, 
+        file_to_convert,
+        '--headless']
+    )
+
+def Export_to_doc(file_to_convert, output_directory):
+    subprocess.Popen(["/usr/bin/soffice", 
+        "--convert-to", 
+        "doc", 
+        "--outdir", 
+        output_directory, 
+        file_to_convert,
+        '--headless']
+    )
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
