@@ -33,7 +33,8 @@ def Pdf_Office():
     Create_PDF_layout = [
         [sg.FilesBrowse()]
         ,
-        [sg.Button("Create PDF", key="create pdf")],
+        [sg.Button("Create PDF", key="create pdf")] 
+        ,
         [sg.OK(), sg.Cancel()]
         ]
     window = sg.Window('PDF Office', Create_PDF_layout)
