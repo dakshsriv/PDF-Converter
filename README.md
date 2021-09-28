@@ -1,6 +1,6 @@
 # PDF Office
 
-This is a free pdf tool with advanced features such as create pdf, protect pdf, export pdf, edit pdf, and more!
+This is a free pdf tool with create PDF feature!
 PDF Office has a GUI layout, with pleasant graphics.
 It is easy to use and is organized in tabs such as "File", "Display".
 PDF Office is made to use a limited amount oF CPU usage and RAM.
